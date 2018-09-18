@@ -1,72 +1,82 @@
-*{
-    margin:0;
-    padding:0;
-    list-style:none;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.head-wrapper{
-    position:relative;
-    left:0;
-    top:40px;
-    height:50px;
-    width:640px;
+
+.head-wrapper {
+    position: relative;
+    left: 0;
+    top: 40px;
+    height: 50px;
+    width: 640px;
 }
-.head-wrapper .mark{
-    position:absolute;
-    left:10px;
-    top:0;
+
+.head-wrapper .mark {
+    position: absolute;
+    left: 10px;
+    top: 0;
 }
-.head-wrapper .search-box{
-   position:absolute;
-   left:140px;
-   top:10px;
-   width:640px;
+
+.head-wrapper .search-box {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    width: 640px;
 }
-.head-wrapper input{
-    width:395px;
-    height:34px;
-    border:1px solid #888;
-    text-indent:10px;
-    font-size:16px;
+
+.head-wrapper input {
+    width: 395px;
+    height: 34px;
+    border: 1px solid #888;
+    text-indent: 10px;
+    font-size: 16px;
 }
-#search-btn{
-    position:absolute;
-    left:397px;
-    top:0;          
+
+#search-btn {
+    position: absolute;
+    left: 397px;
+    top: 0;
 }
-#search-btn a{
-    display:inline-block;
-    width:100px;
-    height:34px;
-    background-color:#3385ff;
-    border:1px solid #3385ee;
-    color:#fff;
-    font-size:16px;
-    text-align:center;
-    line-height:36px;
-    text-decoration:none;
+
+#search-btn a {
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    background-color: #3385ff;
+    border: 1px solid #3385ee;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
 }
-.head-wrapper .box{
-    position:absolute;
-    left:0;
-    top:36px;
-    width:395px;
-    border:1px solid #ccc;
-    display:none;
-    text-indent:10px;
-   
+
+.head-wrapper .box {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 395px;
+    border: 1px solid #ccc;
+    display: none;
+    text-indent: 10px;
+
 }
-.box li{
-    width:100%;
-    height:100%;
-    padding:3px 0;
+
+.box li {
+    width: 100%;
+    height: 100%;
+    padding: 3px 0;
 }
-.box li:hover{
-    background-color:#eee;
+
+.box li:hover {
+    background-color: #eee;
 }
-.box li a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration:none;
-    color:#333;
+
+.box li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
 }

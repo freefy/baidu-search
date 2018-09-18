@@ -42,6 +42,7 @@ function debounce(func, wait, immediate) {
     }
     return debounced;
 }
+
 function doFunc(data) {
     var s = data.s;
     var str = '';
